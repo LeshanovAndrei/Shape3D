@@ -6,7 +6,7 @@ class Cube : public Shape
 public:
 	Cube();
 	~Cube();
-	virtual void Draw();
+	void Draw() override;
 
 private:
 	float* vertices;
