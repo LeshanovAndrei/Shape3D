@@ -150,6 +150,18 @@
   <ItemGroup>
     <Image Include="..\..\docs\UML.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Controls\Controller.h" />
+    <ClInclude Include="Controls\Controller1.h" />
+    <ClInclude Include="Shapes\Cube.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="Shapes\Prism.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shapes\Shape.h" />
+    <ClInclude Include="Controls\ShapeFactory.h" />
+    <ClInclude Include="Shapes\Sphere.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
