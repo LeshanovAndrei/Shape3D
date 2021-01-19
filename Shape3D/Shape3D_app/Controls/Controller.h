@@ -14,7 +14,6 @@ public:
 	virtual void Aggregate() = 0;
 	virtual void Undo() = 0;
 private:
-
 };
 
 Controller::Controller()
