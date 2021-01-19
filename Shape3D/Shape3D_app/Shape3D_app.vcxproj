@@ -148,9 +148,6 @@
     <None Include="..\..\docs\UML.drawio" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\docs\UML.JPG" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Controls\Controller.h" />
     <ClInclude Include="Controls\Controller1.h" />
