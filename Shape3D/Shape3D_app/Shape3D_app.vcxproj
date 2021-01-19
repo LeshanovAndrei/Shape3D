@@ -141,6 +141,15 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\docs\tz.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\UML.drawio" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\docs\UML.JPG" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
