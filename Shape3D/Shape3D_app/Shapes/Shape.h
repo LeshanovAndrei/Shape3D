@@ -10,7 +10,7 @@ public:
 	void Move(glm::vec3);
 	void ChangeColor(glm::vec3);
 	void ChangeSize(float);
-private:
+protected:
 	glm::vec3 pos;
 	glm::vec3 color;
 	float scale;
