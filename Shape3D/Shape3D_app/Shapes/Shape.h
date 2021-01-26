@@ -8,7 +8,7 @@ public:
 	~Shape();
 	virtual void Draw() = 0;
 	void Move(glm::vec3);
-	void ChangeColor(glm::vec3);
+	void ChangeColor();
 	void ChangeSize(float);
 private:
 	glm::vec3 pos;

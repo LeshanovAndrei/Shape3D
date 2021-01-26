@@ -9,6 +9,7 @@ class ShapeFactory
 public:
 	ShapeFactory();
 	~ShapeFactory();
+	Shape* ShapeMake(int howto);
 	Shape* CubeMake();
 	Shape* SphereMake();
 	Shape* PrismMake();

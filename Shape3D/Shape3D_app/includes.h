@@ -6,6 +6,7 @@
 #include <utility>
 #include <cmath>
 #include <string>
+#include <conio.h>
 
 #pragma comment(lib, "..\\libs\\GL_AL\\glfw3.lib")
 #pragma comment(lib, "..\\libs\\GL_AL\\glut32.lib")

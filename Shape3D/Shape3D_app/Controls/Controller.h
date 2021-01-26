@@ -5,6 +5,7 @@ class Controller
 public:
 	Controller();
 	~Controller();
+	virtual void AddObject() = 0;
 	virtual void Move() = 0;
 	virtual void ChangeSize(float) = 0;
 	virtual void ChangeColor() = 0;
